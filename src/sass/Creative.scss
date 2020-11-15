@@ -1,0 +1,25 @@
+.creative {
+    background-color: #353535;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.creative h1,
+.creative h3 {
+    color: #f8f6f6;
+    display: block;
+    text-align: center;
+    font-family: 'BigNoodleTitling';
+}
+
+.creative h1 {
+    font-size: 72px;
+    letter-spacing: 0.5rem;
+}
+
+.creative h3 {
+    font-size: 36px;
+    letter-spacing: 0.25rem;
+}

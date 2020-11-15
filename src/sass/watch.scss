@@ -1,0 +1,33 @@
+.watch {
+    min-height: 433px;
+    width: 100%;
+    background-color: #171f23;
+    color: #e7e7e7;
+}
+
+.watch_title {
+    margin-top: 130px;
+    font-family: 'Roboto' 'bold';
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.watch_text {
+    width: 80%;
+    margin: 0 auto 40px auto;
+}
+
+.watch_btn {
+    display: block;
+    margin: 30px auto 0 auto;
+}
+
+.video_block {
+    width: 100%;
+    min-height: 430px;
+    position: absolute;
+    right: 20px;
+    margin: 0 0 0 0;
+    overflow: hidden;
+    background-color: #000;
+}

@@ -1,0 +1,19 @@
+.block_main {
+  width: 100%;
+  min-height: 100px;
+  margin: 20px auto;
+  border: 2px solid #000;
+  background-color: #abe2df;
+}
+
+.block_main a {
+  margin: 3%;
+  display: block;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+}
+
+.block_main a:hover {
+  color: #fff;
+}
