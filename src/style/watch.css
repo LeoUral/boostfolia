@@ -3,10 +3,11 @@
   width: 100%;
   background-color: #171f23;
   color: #e7e7e7;
+  border-radius: 0px;
 }
 
 .watch_title {
-  margin-top: 130px;
+  margin-top: 17%;
   font-family: 'Roboto' 'bold';
   font-weight: 700;
   font-size: 30px;
@@ -26,8 +27,8 @@
   width: 100%;
   min-height: 430px;
   position: absolute;
-  right: 20px;
-  margin: 0 0 0 0;
+  margin: 0;
   overflow: hidden;
   background-color: #000;
+  border-radius: 0px;
 }

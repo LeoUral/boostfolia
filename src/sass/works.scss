@@ -1,0 +1,28 @@
+.works {
+    min-height: 570px;
+    padding: 94px;
+    background-color: #ddd;
+}
+
+.works h1,
+.works-text {
+    text-align: center;
+}
+
+.works h1 {
+    font-family: 'BigNoodleTitling';
+    font-size: 48px;
+    letter-spacing: 0.4rem;
+}
+
+.works_block {
+    width: 150px;
+    height: 30px;
+    border-top: 2px solid red;
+    margin: -10px auto 0 auto;
+}
+
+.works-text {
+    width: 545px;
+    margin: 0 auto 30px auto;
+}
