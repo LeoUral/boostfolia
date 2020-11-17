@@ -15,7 +15,7 @@ export default function Watch() {
                                 <Card.Title className="text-center watch_title">WATCH BEHIND THE SCENE</Card.Title>
                                 <Card.Text className="watch_text">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aliquid suscipit quasi voluptatem quas amet cum maiores ut quos ea, atque, quidem veritatis alias adipisci veniam iure error. Ducimus ratione impedit praesentium, eius libero error odio suscipit porro quia aperiam?
-                </Card.Text>
+                                </Card.Text>
                                 <Button variant="danger" className="watch_btn">PLAY NOW</Button>
                             </Card.Body>
                         </Card>

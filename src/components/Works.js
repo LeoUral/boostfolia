@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import '../style/works.css';
+import Navi from './Navi';
 
 export default function Works() {
 
@@ -15,6 +16,7 @@ export default function Works() {
                             <p className="works-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab labore, aperiam neque minima adipisci totam sequi fugit quasi ratione amet.?</p>
                         </Col>
                     </Row>
+                    <Navi />
                 </Container>
             </section>
         </>
