@@ -1,0 +1,26 @@
+.some-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.some-image {
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.some-paragraf1 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.some-paragraf2 {
+  padding: 25px;
+  font-size: 48px;
+}

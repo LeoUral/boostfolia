@@ -1,0 +1,22 @@
+.title-h1,
+.title-text {
+  text-align: center;
+}
+
+.title-h1 {
+  font-family: 'BigNoodleTitling';
+  font-size: 48px;
+  letter-spacing: 0.4rem;
+}
+
+.title-block {
+  width: 150px;
+  height: 30px;
+  border-top: 2px solid red;
+  margin: -10px auto 0 auto;
+}
+
+.title-text {
+  width: 545px;
+  margin: 0 auto 50px auto;
+}

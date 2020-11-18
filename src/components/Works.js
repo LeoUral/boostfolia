@@ -1,7 +1,9 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import '../style/works.css';
 import Navi from './Navi';
+import Square from './Square';
+import TitleHeader from './TitleHeader';
 
 export default function Works() {
 
@@ -9,16 +11,11 @@ export default function Works() {
         <>
             <section id="works" className="works">
                 <Container>
-                    <Row>
-                        <Col>
-                            <h1>OUR WORKS</h1>
-                            <div className="works_block"></div>
-                            <p className="works-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab labore, aperiam neque minima adipisci totam sequi fugit quasi ratione amet.?</p>
-                        </Col>
-                    </Row>
+                    <TitleHeader titleHeader="OUR WORKS" titleText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab labore, aperiam neque minima adipisci totam sequi fugit quasi ratione amet.?" />
                     <Navi />
                 </Container>
             </section>
+            <Square />
         </>
     );
 }

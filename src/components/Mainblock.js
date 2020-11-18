@@ -3,6 +3,7 @@ import Creative from './Creative';
 import About from './About';
 import Watch from './Watch';
 import Works from './Works';
+import Who from './Who';
 
 const Mainblock = () => (
     <>
@@ -10,6 +11,7 @@ const Mainblock = () => (
         <About />
         <Watch />
         <Works />
+        <Who />
     </>
 );
 

@@ -8,19 +8,19 @@ export default function Navi() {
         <>
             <Nav className="justify-content-center">
                 <Nav.Item>
-                    <Nav.Link href="#" className="navi-link">ALL PROJECTS</Nav.Link>
+                    <Nav.Link href="/" className="navi-link">ALL PROJECTS</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="#" className="navi-link">PHOTOGRAPHY</Nav.Link>
+                    <Nav.Link href="/" className="navi-link">PHOTOGRAPHY</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="#" className="navi-link">WEB DESIGN</Nav.Link>
+                    <Nav.Link href="/" className="navi-link">WEB DESIGN</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="#" className="navi-link">BRANDING</Nav.Link>
+                    <Nav.Link href="/" className="navi-link">BRANDING</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="#" className="navi-link">MOBILE APP</Nav.Link>
+                    <Nav.Link href="/" className="navi-link">MOBILE APP</Nav.Link>
                 </Nav.Item>
             </Nav>
         </>
