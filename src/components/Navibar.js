@@ -1,7 +1,7 @@
 import React from 'react';
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import logo from '../image/logo.png';
-import styled from 'styled-components';
+// import styled from 'styled-components';
 
 export default function Navibar() {
 

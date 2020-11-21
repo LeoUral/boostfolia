@@ -1,0 +1,46 @@
+.blog-card {
+  position: relative;
+  opacity: 0.5;
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.blog-card:hover {
+  opacity: 1;
+  -webkit-filter: blur(0);
+          filter: blur(0);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.blog-link {
+  display: none;
+  position: absolute;
+  top: -120px;
+  left: 60px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 50%;
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.blog-card:hover .blog-link {
+  display: block;
+  border: 1px solid #f3d8d3;
+  background-color: #f3d8d3;
+}
+
+.blog-card .blog-link:hover {
+  background-color: #e67b5d;
+  border: 1px solid #e67b5d;
+  -webkit-filter: blur(0);
+          filter: blur(0);
+}
