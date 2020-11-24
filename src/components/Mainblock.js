@@ -6,6 +6,7 @@ import Watch from './Watch';
 import Works from './Works';
 import Who from './Who';
 import Blog from './Blog';
+import Choseplane from './Choseplan';
 
 const Mainblock = () => (
     <>
@@ -16,6 +17,7 @@ const Mainblock = () => (
         <Works />
         <Who />
         <Blog />
+        <Choseplane />
     </>
 );
 

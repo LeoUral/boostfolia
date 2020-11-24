@@ -1,0 +1,58 @@
+.chose {
+    padding: 0;
+    margin-bottom: 95px;
+    border: 1px solid #171f23;
+    background-color: #1f282c;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.chose:hover {
+    border: 1px solid #f3724d;
+    transition: 0.5s;
+}
+
+.chose_header {
+    height: 132px;
+    margin: 0 0 44px 0;
+    padding: 40px 0;
+    background-color: #0e1316;
+}
+
+.chose_header>h6 {
+    font-family: 'Roboto';
+    margin-bottom: -1px;
+}
+
+.chose_main {
+    margin-bottom: 70px;
+}
+
+.chose_position {
+    margin-bottom: 5px;
+}
+
+.chose_number1 {
+    color: #fff;
+    transition: 0.5s;
+}
+
+.chose:hover .chose_number1 {
+    color: #f3724d;
+    transition: 0.5s;
+}
+
+.chose_btn {
+    width: 130px;
+    background-color: #f3724d;
+    color: #fff;
+    margin-bottom: 40px;
+    border: 1px solid #f3724d;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.chose_btn:hover {
+    background-color: #f13e0c;
+    border: 1px solid #f13e0c;
+}
