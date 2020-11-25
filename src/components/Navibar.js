@@ -1,14 +1,14 @@
 import React from 'react';
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import logo from '../image/logo.png';
-// import styled from 'styled-components';
+import '../style/navibar.css';
 
 export default function Navibar() {
 
     return (
         <Navbar collapseOnSelect expand="lg" bg="outline-dark" variant="light" className="fixed-top" style={{ backgroundColor: '#f8f6f6' }}>
             <Container>
-                <Navbar.Brand href="#home"><img src={logo} alt="logo" />Boostfolia</Navbar.Brand>
+                <Navbar.Brand href="#home" className="navibar_brand"><img src={logo} alt="logo" /> Boostfolia</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" style={{ position: 'relative' }}>
                     <Nav className="mr-auto" style={{ position: 'absolute', right: '20px' }}>

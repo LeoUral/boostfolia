@@ -1,0 +1,23 @@
+.contact_form_star {
+    color: red;
+}
+
+.contact_form_input {
+    border-bottom: 1px solid #ccc;
+}
+
+.contact_form_btn {
+    display: block;
+    width: 130px;
+    background-color: #f3724d;
+    color: #fff;
+    border: 1px solid #f3724d;
+    margin: 50px auto 30px auto;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.contact_form_btn:hover {
+    background-color: #f13e0c;
+    border: 1px solid #f13e0c;
+}

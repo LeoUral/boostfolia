@@ -7,6 +7,9 @@ import Works from './Works';
 import Who from './Who';
 import Blog from './Blog';
 import Choseplane from './Choseplan';
+import Contact from './Contact';
+import Location from './Location';
+import Footer from './Footer';
 
 const Mainblock = () => (
     <>
@@ -18,6 +21,9 @@ const Mainblock = () => (
         <Who />
         <Blog />
         <Choseplane />
+        <Contact />
+        <Location />
+        <Footer />
     </>
 );
 

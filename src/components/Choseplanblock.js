@@ -4,6 +4,10 @@ import '../style/choseplanblock.css';
 
 export default function Choseplanblock(props) {
 
+    function handleClick(event) {
+        console.log(event.target.dataset.btn);
+    }
+
     return (
         <>
             <Col key={props.position.title} className="chose" >
@@ -29,7 +33,7 @@ export default function Choseplanblock(props) {
                         <span className="chose_text">Contributors</span>
                     </div>
                 </main>
-                <Button className="chose_btn" variant="danger"> PURCHASE </Button>
+                <Button className="chose_btn" variant="danger" onClick={handleClick} data-btn={props.position.title} > PURCHASE </Button>
             </Col>
         </>
     );
