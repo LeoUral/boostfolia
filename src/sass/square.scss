@@ -1,0 +1,21 @@
+.square {
+    background-color: #e84c3d;
+}
+
+.square-row {
+    height: 175px;
+}
+
+.square-block {
+    border: 0.25px solid #fff;
+    box-sizing: border-box;
+    color: #e84c3d;
+    padding: 30px;
+    transition: 2s;
+}
+
+.square-block:hover {
+    background-color: #ad291d;
+    cursor: pointer;
+    transition: 1s;
+}

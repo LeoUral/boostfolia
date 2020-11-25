@@ -1,0 +1,35 @@
+.footer {
+  padding: 40px 0 0 0;
+  background-color: #171f23;
+}
+
+.footer_image {
+  text-align: center;
+}
+
+.footer_title {
+  text-align: center;
+  font-family: 'BigNoodleTitling';
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer_title_link {
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 0.1rem;
+}
+
+.footer_title_link:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer_text {
+  color: #fff;
+  text-align: center;
+}
+
+.footer_nav-bar-link {
+  margin: -3px 0 60px 0;
+}

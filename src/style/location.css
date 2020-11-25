@@ -1,0 +1,40 @@
+.location {
+  background-color: #171f23;
+}
+
+.location_btn {
+  margin: 0 auto;
+  background-color: #171f23;
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  border: none;
+  text-decoration: none;
+  outline: none;
+}
+
+.location_btn:hover {
+  background-color: #171f23;
+  color: #f3724d;
+  border: none;
+}
+
+.location_btn:active {
+  background-color: #171f23;
+  color: #f3724d;
+  border: none;
+}
+
+.location_span {
+  display: inline-block;
+  color: #f3724d;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  font-family: 'Roboto';
+  font-size: 40px;
+  padding: 0 0 0 10px;
+}
+
+.location_body {
+  color: #fff;
+}

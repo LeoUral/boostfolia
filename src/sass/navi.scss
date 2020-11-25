@@ -1,0 +1,13 @@
+.navi-link {
+    color: #999;
+    border-bottom: 2px solid #fff;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.navi-link:hover {
+    color: #000;
+    border-bottom: 2px solid red;
+    font-weight: 500;
+    transition: 1s;
+}

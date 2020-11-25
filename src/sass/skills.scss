@@ -1,0 +1,39 @@
+.skills-block {
+    min-height: 435px;
+}
+
+.skills-square {
+    width: 135px;
+    height: 135px;
+    background-color: #e84c3d;
+    border-radius: 50%;
+    margin: 40px auto 30px auto;
+}
+
+.skills-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.skills-block h3 {
+    font-weight: 700;
+}
+
+.skills-title2 {
+    display: block;
+    padding: 80px 30px 10px 30px;
+    width: 100%;
+    text-align: left;
+    font-family: 'Roboto';
+}
+
+.skills-text {
+    display: block;
+    padding: 0 30px 30px 30px;
+}
+
+.nav-bar-link {
+    margin: 40px 0 0 0;
+}
