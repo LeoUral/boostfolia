@@ -5,6 +5,18 @@ import Videoblock from './Videoblock';
 
 
 export default function Watch() {
+
+    function handlePlayVideo() {
+        const videoPlay = document.getElementsByTagName('video')[0];
+
+        if (videoPlay.paused) {
+            videoPlay.play();
+        } else {
+            videoPlay.pause();
+        }
+        console.log(videoPlay.paused);
+    };
+
     return (
         <>
             <Container fluid>
@@ -16,7 +28,7 @@ export default function Watch() {
                                 <Card.Text className="watch_text">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aliquid suscipit quasi voluptatem quas amet cum maiores ut quos ea, atque, quidem veritatis alias adipisci veniam iure error. Ducimus ratione impedit praesentium, eius libero error odio suscipit porro quia aperiam?
                                 </Card.Text>
-                                <Button variant="danger" className="watch_btn">PLAY NOW</Button>
+                                <Button variant="danger" className="watch_btn" onClick={handlePlayVideo} >PLAY NOW</Button>
                             </Card.Body>
                         </Card>
                     </Col>
