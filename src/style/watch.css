@@ -21,6 +21,8 @@
 .watch_btn {
   display: block;
   margin: 30px auto 0 auto;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .video_block {
